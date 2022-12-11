@@ -1,27 +1,4 @@
 function maxSumTwoNoOverlap(nums: number[], firstLen: number, secondLen: number): number {
-    /*
-    Problem Solving Approach -
-    - Understand the problem
-    - Explore concrete examples
-    - Break it down
-    - Solve / simplify
-    - Look back & refactor
-    */
-
-    // let maxSum = 0
-    // if fl = 1, maxSum = Math.max(...nums)
-    // else loop over arr with i from 0 to fl
-     // create maxSum with nums[i]
-    
-    // let temp = maxSum
-    // loop over nums as i from fl to nums.length
-      // temp = temp - nums[i - fl] + nums[i]
-      // maxSum = Math.max(temp, maxSum)
-    
-    //==========
-
-    // similarly find for secondLen and do sum of the elements of both arrays
-    // return total sum
     let nums1: number[] = [...nums];
 
     let maxSum: number = 0;
